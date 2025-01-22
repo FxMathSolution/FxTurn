@@ -1,0 +1,24 @@
+- title: Home
+  url: /
+  nav_order: 1
+
+- title: Getting Started
+  url: /getting-started/
+  nav_order: 2
+
+- title: Advanced Usage
+  url: /advanced-usage/
+  nav_order: 3
+
+- title: Troubleshooting
+  url: /troubleshooting/
+  children:
+    - title: Common Issues
+      url: /troubleshooting/common-issues/
+    - title: Debugging Tips
+      url: /troubleshooting/debugging-tips/
+  nav_order: 4
+
+- title: API Reference
+  url: /api-reference/
+  nav_order: 5
